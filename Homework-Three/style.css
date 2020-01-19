@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+/*body*/
+body {
+
+    background-color: indianred;
+    justify-content: center;
+}
+
+/*header*/
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    clear: both;
+}
+
+/*sub-header*/
+h2 {
+    border-bottom: 2px solid palevioletred;
+    text-align: center;
+    color: white;
+}
+
+/*container for sub-head/pss generator functions*/
+#main-container {
+    border: 1px solid palevioletred;
+    width: 350px;
+    height: 405px;
+    margin-left: 560px;
+    background-color: darkred;
+    position: absolute;
+    object-position: center;
+}
+
+/*container for secure pss*/
+#secure-pass {
+    border: 1px solid palevioletred;
+    padding: 10px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    width: 349px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/*I think it'd be a good idea to have checkmarks for the prompts instead of actual prompts when you go to a page, it's neater IMO*/
+/*Pass length*/
+#pass-line {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*pass length box*/
+#pass-length {
+    background-color: white;
+    color: black;
+    height: 25px;
+    width: 35px;
+    margin: 3px;
+    text-align: center;
+}
+
+/*input line*/
+#low-line,
+#up-line,
+#numb-line,
+#symb-line {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*input box*/
+#low-case,
+#up-case,
+#numb,
+#symb {
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+    text-align: center;
+}
+
+/*buttons on the bottom of the questions*/
+/*generate button*/
+#generate,
+#clipboard { 
+    margin: 3px;
+    width: 250px;
+    height: 30px;
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+    color: white;
+    margin-left: 50px;   
+}
+
+/*button details*/
+#button-line {
+    height: 20px;
+    width: 350px;
+    margin-top: 15px; 
+}
+
+/*hover over buttons*/
+#generate:hover,
+#clipboard:hover {
+   opacity: 0.9;
+}
