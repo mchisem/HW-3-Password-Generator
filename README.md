@@ -1,2 +1,0 @@
-# Homework-Three
-Password generator
