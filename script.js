@@ -1,5 +1,4 @@
     //elements//
-    
     const resultEl = document.getElementById('secure-pass');
     const lengthEl = document.getElementById('pass-length');
     const lowerEl = document.getElementById('low-case');
@@ -17,7 +16,6 @@
     };
 
     //event listener functions//
-
     generateEl.addEventListener('click', () => {
         const length = +lengthEl.value;
         const isLower = lowerEl.checked;
@@ -29,7 +27,6 @@
     });
 
     //generate pass function//
-
     function generatePassword(lower, upper, number, symbol, length) {
         //1. initial password variable
 

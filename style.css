@@ -110,11 +110,8 @@ h2 {
     padding: 5px;
 }
 
-/*button details*/
-#button-line {
-    height: 20px;
-    width: 350px;
-    margin-top: 15px; 
+#generate{
+    margin-top: 15px;
 }
 
 /*hover over buttons*/
